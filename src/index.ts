@@ -152,10 +152,4 @@ class XboxController {
 		return new Promise((resolve) => setTimeout(resolve, time));
 	}
 }
-
-const controller = new XboxController();
-async function main() {
-	controller.setup();
-
-}
-main();
+export default XboxController;

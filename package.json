@@ -10,10 +10,10 @@
     "start": "node ."
   },
   "devDependencies": {
-    "@types/node": "^17.0.15"
+    "@types/node": "^17.0.15",
+    "@types/uinput": "^1.1.1"
   },
   "dependencies": {
-    "@types/uinput": "^1.1.1",
     "uinput": "https://github.com/esdmr/node-uinput.git"
   }
 }
