@@ -233,6 +233,44 @@ var XboxController = /** @class */ (function () {
             });
         });
     };
+    XboxController.UInputEvents = {
+        BUTTONS: {
+            BTN_A: uinput_1.default.events.BTN_A,
+            BTN_B: uinput_1.default.events.BTN_B,
+            BTN_X: uinput_1.default.events.BTN_X,
+            BTN_Y: uinput_1.default.events.BTN_Y,
+            BTN_SELECT: uinput_1.default.events.BTN_SELECT,
+            BTN_START: uinput_1.default.events.BTN_START,
+            BTN_THUMBL: uinput_1.default.events.BTN_THUMBL,
+            BTN_THUMBR: uinput_1.default.events.BTN_THUMBR,
+            BTN_TL: uinput_1.default.events.BTN_TL,
+            BTN_TR: uinput_1.default.events.BTN_TR,
+            BTN_MODE: uinput_1.default.events.BTN_MODE,
+            // Remapped for ease of use.
+            LEFT_BUMPER: uinput_1.default.events.BTN_TL,
+            RIGHT_BUMPER: uinput_1.default.events.BTN_TR,
+            XBOX_BUTTON: uinput_1.default.events.BTN_MODE
+        },
+        AXIS: {
+            ABS_X: uinput_1.default.events.ABS_X,
+            ABS_Y: uinput_1.default.events.ABS_Y,
+            ABS_RX: uinput_1.default.events.ABS_RX,
+            ABS_RY: uinput_1.default.events.ABS_RY,
+            ABS_HAT0X: uinput_1.default.events.ABS_HAT0X,
+            ABS_HAT0Y: uinput_1.default.events.ABS_HAT0Y,
+            ABS_Z: uinput_1.default.events.ABS_Z,
+            ABS_RZ: uinput_1.default.events.ABS_RZ,
+            // Remapped for ease of use.
+            LEFT_STICK_X: uinput_1.default.events.ABS_X,
+            LEFT_STICK_Y: uinput_1.default.events.ABS_Y,
+            RIGHT_STICK_X: uinput_1.default.events.ABS_RX,
+            RIGHT_STICK_Y: uinput_1.default.events.ABS_RY,
+            DPAD_X: uinput_1.default.events.ABS_HAT0X,
+            DPAD_Y: uinput_1.default.events.ABS_HAT0Y,
+            LEFT_TRIGGER: uinput_1.default.events.ABS_Z,
+            RIGHT_TRIGGER: uinput_1.default.events.ABS_RZ, // Right Trigger
+        },
+    };
     return XboxController;
 }());
 exports.default = XboxController;
