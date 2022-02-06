@@ -235,13 +235,4 @@ var XboxController = /** @class */ (function () {
     };
     return XboxController;
 }());
-var controller = new XboxController();
-function main() {
-    return __awaiter(this, void 0, void 0, function () {
-        return __generator(this, function (_a) {
-            controller.setup();
-            return [2 /*return*/];
-        });
-    });
-}
-main();
+exports.default = XboxController;
