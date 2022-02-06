@@ -234,7 +234,7 @@ var XboxController = /** @class */ (function () {
         });
     };
     XboxController.UInputEvents = {
-        BUTTONS: {
+        BUTTON: {
             BTN_A: uinput_1.default.events.BTN_A,
             BTN_B: uinput_1.default.events.BTN_B,
             BTN_X: uinput_1.default.events.BTN_X,

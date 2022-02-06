@@ -62,7 +62,7 @@ class XboxController {
 	};
 
 	static UInputEvents = {
-		BUTTONS: {
+		BUTTON: {
 			BTN_A: UInput.events.BTN_A,
 			BTN_B: UInput.events.BTN_B,
 			BTN_X: UInput.events.BTN_X,

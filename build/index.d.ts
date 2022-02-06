@@ -19,7 +19,7 @@ declare class XboxController {
         UI_SET_ABSBIT: (0 | 3 | 1 | 4 | 16 | 17 | 2 | 5)[];
     };
     static UInputEvents: {
-        BUTTONS: {
+        BUTTON: {
             BTN_A: 304;
             BTN_B: 305;
             BTN_X: 307;
