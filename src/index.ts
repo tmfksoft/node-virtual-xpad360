@@ -60,6 +60,54 @@ class XboxController {
 			UInput.events.ABS_RZ, // Right Trigger
 		],
 	};
+
+	public UInputEvents = {
+		BUTTONS: {
+			BTN_A: UInput.events.BTN_A,
+			BTN_B: UInput.events.BTN_B,
+			BTN_X: UInput.events.BTN_X,
+			BTN_Y: UInput.events.BTN_Y,
+			BTN_SELECT: UInput.events.BTN_SELECT, // Start
+			BTN_START: UInput.events.BTN_START, // Back
+	
+			BTN_THUMBL: UInput.events.BTN_THUMBL,
+			BTN_THUMBR: UInput.events.BTN_THUMBR,
+	
+			BTN_TL: UInput.events.BTN_TL,
+			BTN_TR: UInput.events.BTN_TR,
+			BTN_MODE: UInput.events.BTN_MODE,
+
+			// Remapped for ease of use.
+			LEFT_BUMPER: UInput.events.BTN_TL,
+			RIGHT_BUMPER: UInput.events.BTN_TR,
+			XBOX_BUTTON:  UInput.events.BTN_MODE
+		},
+		AXIS: {
+			ABS_X: UInput.events.ABS_X, // Left Stick X
+			ABS_Y: UInput.events.ABS_Y, // Left Stick Y
+			ABS_RX: UInput.events.ABS_RX, // Right Stick X
+			ABS_RY: UInput.events.ABS_RY, // Right Stick Y
+	
+			ABS_HAT0X: UInput.events.ABS_HAT0X, // Dpad
+			ABS_HAT0Y: UInput.events.ABS_HAT0Y, // Dpad
+	
+			ABS_Z: UInput.events.ABS_Z, // Left Trigger
+			ABS_RZ: UInput.events.ABS_RZ, // Right Trigger
+
+			// Remapped for ease of use.
+			LEFT_STICK_X: UInput.events.ABS_X, // Left Stick X
+			LEFT_STICK_Y: UInput.events.ABS_Y, // Left Stick Y
+			RIGHT_STICK_X: UInput.events.ABS_RX, // Right Stick X
+			RIGHT_STICK_Y: UInput.events.ABS_RY, // Right Stick Y
+	
+			DPAD_X: UInput.events.ABS_HAT0X, // Dpad
+			DPAD_Y: UInput.events.ABS_HAT0Y, // Dpad
+	
+			LEFT_TRIGGER: UInput.events.ABS_Z, // Left Trigger
+			RIGHT_TRIGGER: UInput.events.ABS_RZ, // Right Trigger
+
+		},
+	}
 	
 	public device: UInput.UInput | undefined;
 
