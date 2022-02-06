@@ -1,7 +1,7 @@
 {
   "name": "virtual-xpad360",
   "website": "https://github.com/tmfksoft/node-virtual-xpad360",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "license": "MIT",
   "types": "build/index.d.ts",
