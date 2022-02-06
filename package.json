@@ -1,5 +1,6 @@
 {
-  "name": "Node-vJoy",
+  "name": "virtual-xpad360",
+  "website": "https://github.com/tmfksoft/node-virtual-xpad360",
   "version": "1.0.0",
   "main": "build/index.js",
   "license": "MIT",
